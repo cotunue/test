@@ -1,0 +1,131 @@
+/*
+#box1{
+    width: 250px;
+    height: 250px;
+    background:red;
+    font-size: 250px;
+    text-align: center;
+    
+    
+    
+    animation: Mycolorchange;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay:0s;
+    animation-timing-function: linear;
+    animation-duration: 5s; 
+}
+
+@keyframes Myslide {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+    
+   
+#box1:hover{  
+}
+
+#box1:active{
+    animation: 3s linear 0s infinite running Myslide2;    
+    
+}
+
+@keyframes Myslide2 {
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+
+@keyframes Myrotation{
+    100%{transform: rotate(360deg);}
+}
+
+
+
+@keyframes Myopacity {
+    50%{opacity: 0;}
+}
+
+@keyframes Myscale {
+    50%{transform: scale(0.5,0.5);}
+}
+
+
+@keyframes Mycolorchange {
+    0%{background-color: red;}
+    20%{background-color: green;}
+    40%{background-color: blue;}
+    60%{background-color: cyan;}
+    80%{background-color: magenta;}
+    100%{background-color: yellow;}
+}
+
+
+*/
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #444444;
+}
+li a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px , 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    min-width: 60px;
+
+}
+
+
+li a:hover{
+    background-color: #222222;
+    animation: Myglowanimation;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Myglowanimation {
+    50% {text-shadow: 0px 0px 10px yellow;}
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap:nowrap;
+    background-color:#444444;
+    height: 400px;
+    /*
+    flex-direction: column-reverse;
+    width:110px;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+    align-items: center;
+    */
+
+
+
+
+}
+
+
+.container div{
+    color: wheat;
+    height: 100px;
+    width: 100px;
+    background-color: #999999;
+    text-align: center;
+    line-height:100px;
+    font-size: 50px;
+    margin: 5px;
+}

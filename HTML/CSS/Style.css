@@ -1,0 +1,41 @@
+h1{
+    color: aqua;
+    font-family: "Press Start 2P" , "consolas" , sans-serif;
+    font-style: italic;   
+    text-decoration: cyan dashed underline;
+    font-size: xx-large;
+    font-weight: bold;
+    border-top:forestgreen dotted;
+    border-left: yellow dotted;
+    border-left-width:10px ;
+
+
+}
+
+body{
+    background: linear-gradient(to right,#b17931,#ff4800);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("http://127.0.0.1:5500/HTML/Images/content.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+#p1{
+    background-color: green;
+    border-style: double;
+    border-color: yellow;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+}
+#p2{
+    color: blueviolet;
+    background-color: darkblue;
+    border-color: darkblue;
+    border-radius: 6px;
+}
+
+div{
+    border-radius: 20px;
+}

@@ -1,0 +1,41 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: tomato;
+    
+    float: left;
+}
+
+#p1{
+    clear: both;
+    background-color: aqua;
+}
+
+
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+
+    position: sticky;
+
+    top: 10px;
+    
+
+}
+
+
+
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(243, 150, 35);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

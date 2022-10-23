@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+
+
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    padding: 15px;
+    margin-left: 50%;
+}
+
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: burlywood;
+    padding: 15px;
+}
